@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="{{ url_for('static', filename='styles.css') }}">
+    <script src={{ url_for('static', filename='scripts.js') }}></script>
+    <script src={{ url_for('static', filename='ajax.js') }}></script>
+</head>
+<body>
+    <h1 id="title">Hello my first HTML!</h1>
+    <p>
+        Say smth to
+        <input id="name" type="text">
+        <button>Say it!</button>
+    </p>
+
+    <div id="content"></div>
+</body>
+</html>
